@@ -4,6 +4,12 @@
 
 int main() {
     int dice_1, dice_2, total;
+    char name[30];
+
+    printf("What is your name?\n");
+    printf("> ");
+    scanf("%s", name);
+    printf("Hello, %s!\n", name);
 
     srand((unsigned int)time(NULL));
 
